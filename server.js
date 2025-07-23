@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:5173', // ✅ your frontend origin
+  origin: 'https://coruscating-haupia-cb2392.netlify.app', // ✅ your frontend origin
   credentials: true               // ✅ allows cookies/auth headers
 }));
 
